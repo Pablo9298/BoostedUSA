@@ -1,0 +1,28 @@
+//подключение базовых стилей
+@import 'common/_vars';
+@import 'common/_fonts';
+@import 'common/_reset';
+@import 'common/_libs';
+@import 'common/_global';
+
+
+//подключение компонентов
+@import 'components/burger';
+@import 'components/slider';
+
+
+//header
+@import 'header';
+
+
+//main
+@import 'welcome';
+@import 'sponsors';
+@import 'looking';
+@import 'electric-skateboards';
+@import 'boosted-rev';
+@import 'accesories';
+
+
+//footer
+@import 'footer';

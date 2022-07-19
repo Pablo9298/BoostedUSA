@@ -1,0 +1,58 @@
+.electric-skateboards {
+  padding: 0 15px;
+
+  &__container {
+    background-image: url('../images/skateboards-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 736px;
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.12;
+    padding-top: 45px;
+    margin-bottom: 15px;
+
+    &>span {
+      display: block;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.25;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    letter-spacing: 1px;
+    max-width: 488px;
+    margin: 0 auto 20px;
+  }
+
+  &__link {
+    font-weight: 700;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin: 0 auto;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .electric-skateboards {
+
+    &__container {
+          height: 550px;
+    }
+
+    &__title {
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+  }
+}
