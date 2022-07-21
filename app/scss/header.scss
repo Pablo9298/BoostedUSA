@@ -95,8 +95,8 @@
 
     &__list {
       position: fixed;
-      top: -200%;
-      right: 0;
+      top: 95px;
+      left: calc(200% - 300px/2);
       width: 300px;
       height: 400px;
       background-color: #fff;
@@ -104,15 +104,17 @@
       display: block;
       text-align: start;
       padding-top: 80px;
-      transition: top 0.3s ease;
+      border: 5px solid $orange;
+      border-radius: 2%;
+      transition: left 0.5s;
     }
 
     &__list--active {
-      top: 95px;
+      // top: 95px;
       left: calc(50% - 300px/2);
       overflow: auto;
       z-index: 11;
-      border: 5px solid $orange;
+      
     }
 
     &__item {
